@@ -1,0 +1,62 @@
+TestCooperativeLevel
+SetCursorProperties
+CreateAdditionalSwapChain
+GetSwapChain
+Reset
+Present
+GetBackBuffer
+
+CreateTexture  device
+CreateVolumeTexture 
+CreateCubeTexture 
+CreateVertexBuffer 
+CreateIndexBuffer
+CreateRenderTarget
+CreateDepthStencilSurface
+UpdateSurface
+UpdateTexture
+GetRenderTargetData
+GetFrontBufferData
+StretchRect
+ColorFill
+CreateOffscreenPlainSurface
+SetRenderTarget
+GetRenderTarget
+SetDepthStencilSurface
+GetDepthStencilSurface
+BeginScene();
+EndScene();
+Clear
+SetTransform(D3DTRANSFORMSTATETYPE State,CONST D3DMATRIX*
+MultiplyTransform(D3DTRANSFORMSTATETYPE State,CONST D3DMA
+SetViewport(CONST D3DVIEWPORT9* pViewport);
+CreateStateBlock(D3DSTATEBLOCKTYPE Type,IDirect3DStateBlo
+BeginStateBlock();
+EndStateBlock(IDirect3DStateBlock9** ppSB);
+GetTexture(DWORD Stage,IDirect3DBaseTexture9** ppTexture)
+SetTexture(DWORD Stage,IDirect3DBaseTexture9* pTexture);
+DrawPrimitive(D3DPRIMITIVETYPE PrimitiveType,UINT StartVe
+DrawIndexedPrimitive(D3DPRIMITIVETYPE PrimitiveType,INT B
+DrawPrimitiveUP(D3DPRIMITIVETYPE PrimitiveType,UINT Primi
+DrawIndexedPrimitiveUP(D3DPRIMITIVETYPE PrimitiveType,UIN
+ProcessVertices(UINT SrcStartIndex,UINT DestIndex,UINT Ve
+CreateVertexDeclaration(CONST D3DVERTEXELEMENT9* pVertexE
+SetVertexDeclaration(IDirect3DVertexDeclaration9* pDecl);
+GetVertexDeclaration(IDirect3DVertexDeclaration9** ppDecl
+CreateVertexShader(CONST DWORD* pFunction,IDirect3DVertex
+SetVertexShader(IDirect3DVertexShader9* pShader);
+GetVertexShader(IDirect3DVertexShader9** ppShader);
+SetVertexShaderConstantF(UINT StartRegister,CONST float* 
+GetVertexShaderConstantF(UINT StartRegister,float* pData,
+SetStreamSource(UINT StreamNumber,IDirect3DVertexBuffer9*
+GetStreamSource(UINT StreamNumber,IDirect3DVertexBuffer9*
+SetIndices(IDirect3DIndexBuffer9* pIndexData);
+GetIndices(IDirect3DIndexBuffer9** ppIndexData);
+CreatePixelShader(CONST DWORD* pFunction,IDirect3DPixelSh
+SetPixelShader(IDirect3DPixelShader9* pShader);
+GetPixelShader(IDirect3DPixelShader9** ppShader);
+SetPixelShaderConstantF(UINT StartRegister,CONST float* p
+GetPixelShaderConstantF(UINT StartRegister,float* pData, 
+DrawRectPatch(UINT Handle,CONST float* pNumSegs,CONST D3D
+DrawTriPatch(UINT Handle,CONST float* pNumSegs,CONST D3DT
+CreateQuery(D3DQUERYTYPE Type,IDirect3DQuery9** ppQuery);

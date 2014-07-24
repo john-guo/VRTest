@@ -1,0 +1,14 @@
+﻿生成启动时间为 2014/7/15 16:35:18。
+     1>项目“E:\Perception-master\Perception\Perception\Perception.vcxproj”在节点 3 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Perception-master\Debug DX11\Perception\bin\Perception.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\..\DxHijack\DxHijack32\Debug DX11" hijackdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Perception-master\Debug DX11\Perception\bin\Perception.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Perception-master\Debug DX11\Perception\bin\Perception.lib" /MACHINE:X86 "Debug DX11\app.res"
+         "Debug DX11\ProxyHelper.obj"
+         "Debug DX11\pugixml.obj"
+         "Debug DX11\Main.obj"
+            正在创建库 E:\Perception-master\Debug DX11\Perception\bin\Perception.lib 和对象 E:\Perception-master\Debug DX11\Perception\bin\Perception.exp
+         Perception.vcxproj -> E:\Perception-master\Debug DX11\Perception\bin\Perception.exe
+     1>已完成生成项目“E:\Perception-master\Perception\Perception\Perception.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.33

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Direct3D11">
+      <UniqueIdentifier>{61525a96-969c-471d-8bd8-3ed12a6084f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D11Vireio">
+      <UniqueIdentifier>{c75e34ab-9f9d-4eb3-9c29-fb9b152349c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ae0c02e8-4844-4246-8031-de99fe34fe40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stereo">
+      <UniqueIdentifier>{61f94d2d-547b-4490-8c2d-7fe573c4dd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy">
+      <UniqueIdentifier>{1e6df5b5-43ce-4fff-be47-1dcd251af20b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Direct3DDevice11.cpp">
+      <Filter>Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3DDeviceContext11.cpp">
+      <Filter>Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="VireioD3DProxyDevice.cpp">
+      <Filter>Direct3D11Vireio</Filter>
+    </ClCompile>
+    <ClCompile Include="OculusRiftView.cpp">
+      <Filter>Stereo</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoView.cpp">
+      <Filter>Stereo</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoViewFactory.cpp">
+      <Filter>Stereo</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoViewInterleave.cpp">
+      <Filter>Stereo</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyHelper.cpp">
+      <Filter>Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3DResource11.cpp">
+      <Filter>Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="VireioD3DProxyResource.cpp">
+      <Filter>Direct3D11Vireio</Filter>
+    </ClCompile>
+    <ClCompile Include="VireioD3DProxyDeviceContext.cpp">
+      <Filter>Direct3D11Vireio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Direct3DDevice11.h">
+      <Filter>Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3DDeviceContext11.h">
+      <Filter>Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="VireioD3DProxyDevice.h">
+      <Filter>Direct3D11Vireio</Filter>
+    </ClInclude>
+    <ClInclude Include="comm.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="OculusRiftView.h">
+      <Filter>Stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoView.h">
+      <Filter>Stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoViewFactory.h">
+      <Filter>Stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoViewInterleave.h">
+      <Filter>Stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="HMDisplayInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyHelper.h">
+      <Filter>Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3DResource11.h">
+      <Filter>Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="VireioD3DProxyResource.h">
+      <Filter>Direct3D11Vireio</Filter>
+    </ClInclude>
+    <ClInclude Include="VireioD3DProxyDeviceContext.h">
+      <Filter>Direct3D11Vireio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def">
+      <Filter>Main</Filter>
+    </None>
+  </ItemGroup>
+</Project>

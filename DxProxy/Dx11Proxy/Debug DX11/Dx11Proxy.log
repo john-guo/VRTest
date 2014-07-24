@@ -1,0 +1,74 @@
+﻿生成启动时间为 2014/7/18 10:28:34。
+     1>项目“E:\Perception-master\DxProxy\Dx11Proxy\Dx11Proxy.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include" /I\Include /I"E:\Perception-master\libfreespace\include" /I"E:\Perception-master\\VRBoostReferee" /I"E:\Perception-master\\DxProxy\dxgi" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DXPROXY_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug DX11\\" /Fd"Debug DX11\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: “DXGI_STATUS_OCCLUDED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50092) : 参见“DXGI_STATUS_OCCLUDED”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: “DXGI_STATUS_CLIPPED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50101) : 参见“DXGI_STATUS_CLIPPED”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: “DXGI_STATUS_NO_REDIRECTION”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50110) : 参见“DXGI_STATUS_NO_REDIRECTION”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: “DXGI_STATUS_NO_DESKTOP_ACCESS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50119) : 参见“DXGI_STATUS_NO_DESKTOP_ACCESS”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: “DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50128) : 参见“DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: “DXGI_STATUS_MODE_CHANGED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50137) : 参见“DXGI_STATUS_MODE_CHANGED”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: “DXGI_STATUS_MODE_CHANGE_IN_PROGRESS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50146) : 参见“DXGI_STATUS_MODE_CHANGE_IN_PROGRESS”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: “DXGI_ERROR_INVALID_CALL”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50161) : 参见“DXGI_ERROR_INVALID_CALL”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: “DXGI_ERROR_NOT_FOUND”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50170) : 参见“DXGI_ERROR_NOT_FOUND”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: “DXGI_ERROR_MORE_DATA”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50179) : 参见“DXGI_ERROR_MORE_DATA”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: “DXGI_ERROR_UNSUPPORTED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50188) : 参见“DXGI_ERROR_UNSUPPORTED”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: “DXGI_ERROR_DEVICE_REMOVED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50197) : 参见“DXGI_ERROR_DEVICE_REMOVED”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: “DXGI_ERROR_DEVICE_HUNG”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50206) : 参见“DXGI_ERROR_DEVICE_HUNG”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: “DXGI_ERROR_DEVICE_RESET”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50216) : 参见“DXGI_ERROR_DEVICE_RESET”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: “DXGI_ERROR_WAS_STILL_DRAWING”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50225) : 参见“DXGI_ERROR_WAS_STILL_DRAWING”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: “DXGI_ERROR_FRAME_STATISTICS_DISJOINT”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50235) : 参见“DXGI_ERROR_FRAME_STATISTICS_DISJOINT”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: “DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50244) : 参见“DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: “DXGI_ERROR_DRIVER_INTERNAL_ERROR”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50254) : 参见“DXGI_ERROR_DRIVER_INTERNAL_ERROR”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: “DXGI_ERROR_NONEXCLUSIVE”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50263) : 参见“DXGI_ERROR_NONEXCLUSIVE”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: “DXGI_ERROR_NOT_CURRENTLY_AVAILABLE”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50272) : 参见“DXGI_ERROR_NOT_CURRENTLY_AVAILABLE”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: “DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50282) : 参见“DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: “DXGI_ERROR_REMOTE_OUTOFMEMORY”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50291) : 参见“DXGI_ERROR_REMOTE_OUTOFMEMORY”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(917): warning C4005: “D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50469) : 参见“D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(918): warning C4005: “D3D11_ERROR_FILE_NOT_FOUND”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50478) : 参见“D3D11_ERROR_FILE_NOT_FOUND”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(919): warning C4005: “D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50488) : 参见“D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(920): warning C4005: “D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50497) : 参见“D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: “D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50445) : 参见“D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”的前一个定义
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: “D3D10_ERROR_FILE_NOT_FOUND”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50454) : 参见“D3D10_ERROR_FILE_NOT_FOUND”的前一个定义
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\Perception-master\Debug DX11\dx11proxy.dll) does not match the Linker's OutputFile property value (E:\Perception-master\Debug DX11\Perception\bin\d3d11.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(dx11proxy) does not match the Linker's OutputFile property value (d3d11). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Perception-master\Debug DX11\Perception\bin\d3d11.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86" /LIBPATH:\Lib\x86 /LIBPATH:"E:\Perception-master\libfreespace\lib" /LIBPATH:..\..\LibOVR\Lib\Win32 dxguid.lib dinput8.lib xinput.lib libfreespace.lib libovr.lib Winmm.lib DxErr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Exports.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Perception-master\Debug DX11\dx11proxy.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Perception-master\Debug DX11\dx11proxy.lib" /MACHINE:X86 /DLL "Debug DX11\VireioD3DProxyDevice.obj"
+         "Debug DX11\Direct3DDevice11.obj"
+         "Debug DX11\Direct3DDeviceContext11.obj"
+         "Debug DX11\Main.obj"
+         Dx11Proxy.vcxproj -> E:\Perception-master\Debug DX11\dx11proxy.dll
+     1>已完成生成项目“E:\Perception-master\DxProxy\Dx11Proxy\Dx11Proxy.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.30

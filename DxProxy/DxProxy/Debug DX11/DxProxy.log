@@ -1,0 +1,79 @@
+﻿生成启动时间为 2014/7/15 16:35:15。
+     1>项目“E:\Perception-master\DxProxy\DxProxy\DxProxy.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         xcopy "E:\Perception-master\libfreespace\lib\*.dll" "E:\Perception-master\Debug DX11\Perception\bin\" /Y
+         :VCEnd
+         E:\Perception-master\libfreespace\lib\libfreespace.dll
+         复制了 1 个文件
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include" /I\Include /I"E:\Perception-master\libfreespace\include" /I"E:\Perception-master\\VRBoostReferee" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DXPROXY_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug DX11\\" /Fd"Debug DX11\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\Perception-master\Debug DX11\d3d9.dll) does not match the Linker's OutputFile property value (E:\Perception-master\Debug DX11\Perception\bin\d3d9.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Perception-master\Debug DX11\Perception\bin\d3d9.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86" /LIBPATH:\Lib\x86 /LIBPATH:"E:\Perception-master\libfreespace\lib" /LIBPATH:..\..\LibOVR\Lib\Win32 dxguid.lib dinput8.lib xinput.lib libfreespace.lib libovr.lib Winmm.lib DxErr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Exports.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Perception-master\Debug DX11\d3d9.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Perception-master\Debug DX11\d3d9.lib" /MACHINE:X86 /DLL "Debug DX11\D3D9ProxyCubeTexture.obj"
+         "Debug DX11\D3D9ProxyPixelShader.obj"
+         "Debug DX11\D3D9ProxySwapChain.obj"
+         "Debug DX11\D3D9ProxyTexture.obj"
+         "Debug DX11\D3D9ProxyVertexShader.obj"
+         "Debug DX11\D3D9ProxyVolume.obj"
+         "Debug DX11\D3D9ProxyVolumeTexture.obj"
+         "Debug DX11\D3D9ProxyStateBlock.obj"
+         "Debug DX11\D3DProxyDevice.obj"
+         "Debug DX11\D3DProxyDeviceAdv.obj"
+         "Debug DX11\D3DProxyDeviceDebug.obj"
+         "Debug DX11\D3DProxyDeviceEgo.obj"
+         "Debug DX11\D3DProxyDeviceFactory.obj"
+         "Debug DX11\D3D9ProxySurface.obj"
+         "Debug DX11\Direct3D9.obj"
+         "Debug DX11\Direct3D9Ex.obj"
+         "Debug DX11\Direct3DCubeTexture9.obj"
+         "Debug DX11\Direct3DDevice9Ex.obj"
+         "Debug DX11\Direct3DIndexBuffer9.obj"
+         "Debug DX11\Direct3DPixelShader9.obj"
+         "Debug DX11\Direct3DQuery9.obj"
+         "Debug DX11\Direct3DStateBlock9.obj"
+         "Debug DX11\Direct3DSurface9.obj"
+         "Debug DX11\Direct3DDevice9.obj"
+         "Debug DX11\Direct3DSwapChain9.obj"
+         "Debug DX11\Direct3DTexture9.obj"
+         "Debug DX11\Direct3DVertexBuffer9.obj"
+         "Debug DX11\Direct3DVertexDeclaration9.obj"
+         "Debug DX11\Direct3DVertexShader9.obj"
+         "Debug DX11\Direct3DVolume9.obj"
+         "Debug DX11\Direct3DVolumeTexture9.obj"
+         "Debug DX11\DirectInput.obj"
+         "Debug DX11\FreeSpaceTracker.obj"
+         "Debug DX11\FreeTrackTracker.obj"
+         "Debug DX11\GameHandler.obj"
+         "Debug DX11\InputControls.obj"
+         "Debug DX11\Main.obj"
+         "Debug DX11\MatrixNoShowModification.obj"
+         "Debug DX11\MotionTracker.obj"
+         "Debug DX11\MotionTrackerFactory.obj"
+         "Debug DX11\MurmurHash3.obj"
+         "Debug DX11\OculusRiftView.obj"
+         "Debug DX11\OculusTracker.obj"
+         "Debug DX11\ProxyHelper.obj"
+         "Debug DX11\pugixml.obj"
+         "Debug DX11\DataGatherer.obj"
+         "Debug DX11\ShaderModificationRepository.obj"
+         "Debug DX11\ShaderRegisters.obj"
+         "Debug DX11\SharedMemoryTracker.obj"
+         "Debug DX11\StereoBackbuffer.obj"
+         "Debug DX11\StereoView.obj"
+         "Debug DX11\StereoViewFactory.obj"
+         "Debug DX11\StereoViewInterleave.obj"
+         "Debug DX11\ViewAdjustment.obj"
+         "Debug DX11\Vireio.obj"
+         libovr.lib(OVR_Allocator.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>D3D9ProxyCubeTexture.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+            正在创建库 E:\Perception-master\Debug DX11\d3d9.lib 和对象 E:\Perception-master\Debug DX11\d3d9.exp
+         正在生成代码
+         已完成代码的生成
+         DxProxy.vcxproj -> E:\Perception-master\Debug DX11\d3d9.dll
+     1>已完成生成项目“E:\Perception-master\DxProxy\DxProxy\DxProxy.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.95

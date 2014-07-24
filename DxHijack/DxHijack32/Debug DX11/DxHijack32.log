@@ -1,0 +1,58 @@
+﻿生成启动时间为 2014/7/15 16:35:18。
+     1>项目“E:\Perception-master\DxHijack\DxHijack32\DxHijack32.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\Perception-master\DxHijack\DxHijack32\Debug DX11\hijackdll.dll) does not match the Linker's OutputFile property value (E:\Perception-master\Debug DX11\Perception\bin\hijackdll.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>PreLinkEvent:
+         xcopy "E:\Perception-master\\Release\Perception\cfg\*.*" "E:\Perception-master\\Debug DX11\Perception\cfg\" /S /Y
+         :VCEnd
+         E:\Perception-master\\Release\Perception\cfg\config.xml
+         E:\Perception-master\\Release\Perception\cfg\profiles.xml
+         E:\Perception-master\\Release\Perception\cfg\users.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\bioshock.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\Borderlands.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\borderlands2.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\brassa.cfg
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\Crysis.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\dearesther.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\dirt3_game.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\Dishonored.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\dxhr.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\ego.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\example.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\Fallout3.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\FalloutNV.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\left4dead.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\left4dead2.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\Metro2033.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\mm.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\omd2.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\portal2.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\rfactor.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\sir_alpha.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\source.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\TESV.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\UDK.xml
+         E:\Perception-master\\Release\Perception\cfg\shader_rules\unreal.xml
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\bioshock.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\Borderlands.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\dearesther.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\dirt3_game.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\Dishonored.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\Fallout3.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\FalloutNV.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\left4dead.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\left4dead2.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\sir_alpha.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\TESV.MTBS
+         E:\Perception-master\\Release\Perception\cfg\VRboost_rules\VRboostReferee.exe
+         复制了 40 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Perception-master\Debug DX11\Perception\bin\hijackdll.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86" /LIBPATH:\Lib\x86 /LIBPATH:"E:\Perception-master\libfreespace\lib" /LIBPATH:"E:\Perception-master\DxHijack\DxHijack32\\..\..\DxProxy\DxProxy" /LIBPATH:"E:\Perception-master\DxHijack\DxHijack32\\..\..\DxProxy\DxProxy\Debug DX11" /LIBPATH:"E:\Perception-master\DxHijack\DxHijack32\\..\..\LibOVR\Lib\Win32" shlwapi.lib d3d9.lib d3d11.lib libfreespace.lib libovr.lib Winmm.lib DxErr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"hijackdll.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug DX11\hijackdll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug DX11\hijackdll.lib" /MACHINE:X86 /DLL "Debug DX11\apihijack.obj"
+         "Debug DX11\dllmain.obj"
+         "E:\Perception-master\Debug DX11\d3d9.lib"
+            正在创建库 Debug DX11\hijackdll.lib 和对象 Debug DX11\hijackdll.exp
+         DxHijack32.vcxproj -> E:\Perception-master\DxHijack\DxHijack32\Debug DX11\hijackdll.dll
+     1>已完成生成项目“E:\Perception-master\DxHijack\DxHijack32\DxHijack32.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.36
